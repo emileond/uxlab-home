@@ -1,94 +1,113 @@
-/* line 9, D:/Work/UXLab/uxl-home/scss/styles.scss */
+.text-green {
+  color: #4bcc8c;
+}
+
+.text-purple {
+  color: #5f35d4;
+}
+
 .bg-green {
   background-color: #4bcc8c;
 }
 
-/* line 12, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .bg-purple {
   background-color: #5f35d4;
 }
 
-/* line 15, D:/Work/UXLab/uxl-home/scss/styles.scss */
+.bg-dark-purple {
+  background-color: #312C44;
+}
+
 .bg-blue {
-  background-color: #312c44;
+  background-color: #444475;
 }
 
-/* line 18, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .bg-gradient {
-  background-image: -owg-linear-gradient(to bottom right, #4bcc8c, #5f35d4);
-  background-image: -webkit-linear-gradient(to bottom right, #4bcc8c, #5f35d4);
-  background-image: -moz-linear-gradient(to bottom right, #4bcc8c, #5f35d4);
-  background-image: -o-linear-gradient(to bottom right, #4bcc8c, #5f35d4);
-  background-image: linear-gradient(to bottom right, #4bcc8c, #5f35d4);
+  background-image: -owg-linear-gradient(to bottom right, #8354CF, #643AD3);
+  background-image: -webkit-linear-gradient(to bottom right, #8354CF, #643AD3);
+  background-image: -moz-linear-gradient(to bottom right, #8354CF, #643AD3);
+  background-image: -o-linear-gradient(to bottom right, #8354CF, #643AD3);
+  background-image: linear-gradient(to bottom right, #8354CF, #643AD3);
 }
 
-/* line 21, D:/Work/UXLab/uxl-home/scss/styles.scss */
 body {
-  font-family: 'Ubuntu', sans-serif !important;
-  color: #373737 !important;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #363636 !important;
 }
 
-/* line 25, D:/Work/UXLab/uxl-home/scss/styles.scss */
+a {
+  text-decoration: none !important;
+}
+
 h1 {
   font-size: 3.3rem !important;
 }
 
-/* line 28, D:/Work/UXLab/uxl-home/scss/styles.scss */
 h2 {
-  font-size: 2.6rem !important;
-  font-weight: 600 !important;
+  font-size: 2.2rem !important;
 }
 
-/* line 32, D:/Work/UXLab/uxl-home/scss/styles.scss */
 h4 {
-  font-weight: 400 !important;
+  padding: 1vh 0 1vh;
+  text-align: center;
 }
 
-/* line 35, D:/Work/UXLab/uxl-home/scss/styles.scss */
+h5 {
+  color: #454545 !important;
+}
+
+h6 {
+  color: #454545 !important;
+  font-size: 1.1rem !important;
+}
+
+p {
+  color: #6a6a6a;
+  margin-bottom: 5vh;
+}
+
+.navbar-brand {
+  width: 110px;
+}
+
 #mainNav {
   background-color: #212529;
 }
 
-/* line 39, D:/Work/UXLab/uxl-home/scss/styles.scss */
 #mainNav .navbar-toggler {
   font-size: 12px;
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: #373737;
+  color: #363636;
   border: 0;
   background-color: #fed136;
-  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-/* line 50, D:/Work/UXLab/uxl-home/scss/styles.scss */
 #mainNav .navbar-brand {
   color: #4bcc8c;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-/* line 55, D:/Work/UXLab/uxl-home/scss/styles.scss */
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #4bcc8c;
 }
 
-/* line 59, D:/Work/UXLab/uxl-home/scss/styles.scss */
 #mainNav .navbar-nav .nav-item .nav-link {
   color: white;
   font-size: 90%;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-/* line 68, D:/Work/UXLab/uxl-home/scss/styles.scss */
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #4bcc8c;
 }
 
 @media (min-width: 992px) {
-  /* line 73, D:/Work/UXLab/uxl-home/scss/styles.scss */
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -97,164 +116,177 @@ h4 {
     border: none;
     background-color: transparent;
   }
-  /* line 81, D:/Work/UXLab/uxl-home/scss/styles.scss */
   #mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  /* line 86, D:/Work/UXLab/uxl-home/scss/styles.scss */
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
-  /* line 89, D:/Work/UXLab/uxl-home/scss/styles.scss */
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: white;
+    background-color: #444475;
   }
-  /* line 90, D:/Work/UXLab/uxl-home/scss/styles.scss */
   #mainNav.navbar-shrink a {
-    color: #373737 !important;
+    color: white !important;
   }
-  /* line 92, D:/Work/UXLab/uxl-home/scss/styles.scss */
   #mainNav.navbar-shrink a:hover {
     color: #4bcc8c !important;
   }
-  /* line 95, D:/Work/UXLab/uxl-home/scss/styles.scss */
   #mainNav.navbar-shrink a:active {
     color: #4bcc8c !important;
   }
-  /* line 103, D:/Work/UXLab/uxl-home/scss/styles.scss */
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
   }
 }
 
-/* line 108, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .btn {
   padding: 10px 24px !important;
-  border-radius: 0 !important;
+  letter-spacing: .05rem !important;
+  border-radius: 5rem !important;
   border: 0 !important;
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+  cursor: pointer;
 }
 
-/* line 113, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .btn-primary {
   background-color: #5f35d4 !important;
 }
 
-/* line 115, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .btn-primary:hover {
-  box-shadow: 200px 0 0 #4bcc8c inset !important;
-  transition: .2s ease-out;
+  background-color: #4bcc8c !important;
+  transition: all .2s;
 }
 
-/* line 120, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .btn-secondary {
   background-color: #4bcc8c !important;
 }
 
-/* line 122, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .btn-secondary:hover {
+  transition: all .2s;
+}
+
+.btn-sm {
+  color: white !important;
+  background-color: #4bcc8c !important;
+  padding: 7px 14px !important;
+  border-radius: 5rem !important;
+  border: 0 !important;
+  font-size: 1rem !important;
+  cursor: pointer;
+}
+
+.btn-sm:hover {
   box-shadow: 200px 0 0 #36be7a inset !important;
   transition: .2s ease-out;
 }
 
-/* line 127, D:/Work/UXLab/uxl-home/scss/styles.scss */
+.btn-paypal {
+  color: white;
+  font-size: .9rem !important;
+  letter-spacing: 0 !important;
+  background-color: #009cde;
+  vertical-align: middle;
+}
+
+.btn-paypal:hover {
+  background-color: #33b0e5;
+}
+
 .btn-link {
   color: #5f35d4 !important;
 }
 
-/* line 129, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .btn-link:hover {
   text-decoration: none !important;
 }
 
-/* line 135, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .master-header {
   text-align: center;
   color: white;
-  background-color: #312c44;
+  background-color: #312C44;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 143, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .header-content {
   padding: 200px 0 200px 0;
 }
 
-/* line 148, D:/Work/UXLab/uxl-home/scss/styles.scss */
+.header-example-page {
+  padding: 12rem 0 3rem 0;
+}
+
 .headline h1 {
   margin-bottom: 2.6vh;
 }
 
-/* line 151, D:/Work/UXLab/uxl-home/scss/styles.scss */
-.headline h4 {
-  margin-bottom: 10vh;
+.headline h2 {
+  padding-top: 7vh;
+  margin-bottom: 4vh;
 }
 
-/* line 155, D:/Work/UXLab/uxl-home/scss/styles.scss */
+.headline h4 {
+  margin-bottom: 8vh;
+}
+
+.headline p {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding: 0 15vw 2rem 15vw;
+}
+
 .clients-logos {
   border-bottom: 1px solid #cdd4d8;
-  margin-bottom: 5vh;
 }
 
-/* line 159, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .clients {
   padding: 40px;
 }
 
-/* line 162, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .clients-1 img {
   max-height: 35px;
 }
 
-/* line 167, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .clients-2 img {
   max-width: 100px;
 }
 
-/* line 172, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .clients-3 img {
   max-width: 80px;
 }
 
-/* line 177, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .clients-4 img {
   max-width: 80px;
 }
 
-/* line 182, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .clients-5 img {
   max-width: 80px;
 }
 
-/* line 187, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .clients-6 img {
   max-width: 80px;
 }
 
-/* line 192, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .no-gutters {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* line 198, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .showcase-content {
   padding: 7rem 1rem 7rem 7rem;
 }
 
-/* line 200, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .showcase-content h2 {
-  color: #373737;
+  color: #363636;
   margin-bottom: 3vh;
 }
 
-/* line 204, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .showcase-content p {
   color: #6a6a6a;
   font-size: 1.25rem;
@@ -262,7 +294,6 @@ h4 {
   margin-bottom: 5vh;
 }
 
-/* line 211, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .showcase-image {
   width: 98%;
   margin-top: 14vh;
@@ -270,36 +301,65 @@ h4 {
   box-shadow: -1px 92px 99px -62px rgba(0, 0, 0, 0.08), 0 25px 65px 0 rgba(0, 0, 0, 0.08);
 }
 
-/* line 218, D:/Work/UXLab/uxl-home/scss/styles.scss */
+.card {
+  transition: all 0.2s;
+  border: 0 !important;
+  margin-bottom: 6vh;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+  /* Hover Effects on Card */
+}
+
+.card-text {
+  color: #6a6a6a !important;
+}
+
+.card p {
+  font-size: 1.1rem;
+}
+
+.card li {
+  color: #363636;
+}
+
+@media (min-width: 992px) {
+  .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+#howitworks {
+  padding: 0vh 0 10vh 0;
+}
+
 .margin-auto {
   margin-top: auto;
   margin-bottom: auto;
 }
 
-/* line 223, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .testimonials p {
   font-size: 1.5rem;
 }
 
-/* line 226, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .testimonials span {
   color: #6a6a6a;
 }
 
-/* line 232, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .testimonial-content {
   width: 100%;
   margin-bottom: 10vh;
 }
 
-/* line 236, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .testimonial-text {
-  padding-top: 10vh;
+  padding-top: 1vh;
   padding-bottom: 3vh;
 }
 
 @media (min-width: 960px) {
-  /* line 236, D:/Work/UXLab/uxl-home/scss/styles.scss */
   .testimonial-text {
     padding-left: 8vw;
     padding-right: 8vw;
@@ -307,55 +367,85 @@ h4 {
 }
 
 @media (max-width: 640px) {
-  /* line 236, D:/Work/UXLab/uxl-home/scss/styles.scss */
   .testimonial-text {
     padding-left: 5vw;
     padding-right: 5vw;
   }
 }
 
-/* line 248, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .wrapper {
   width: 230px;
   margin: 0 auto;
 }
 
-/* line 251, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .wrapper img {
   width: 60px;
 }
 
-/* line 255, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .firm-text {
   padding-left: 70px;
 }
 
-/* line 259, D:/Work/UXLab/uxl-home/scss/styles.scss */
+.pricing p {
+  color: white;
+}
+
+.pricing h2 {
+  color: white;
+}
+
+.pricing ul li {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #454545;
+  margin-bottom: 1rem;
+}
+
+.pricing h5 {
+  font-size: 1rem;
+}
+
+.pricing .card-price {
+  font-size: 3rem !important;
+}
+
+.pricing .currency {
+  font-size: .8rem;
+}
+
+.contact {
+  padding-bottom: 6vh;
+}
+
 .contact-text {
   color: white;
   padding-top: 10vh;
   padding-bottom: 2vh;
 }
 
-/* line 263, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .contact-text p {
+  color: white;
   font-size: 1.25rem;
 }
 
-/* line 267, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .contact-form {
   padding-bottom: 10vh;
 }
 
-/* line 271, D:/Work/UXLab/uxl-home/scss/styles.scss */
+.green-stat {
+  font-weight: bold;
+  font-size: .9rem;
+  color: #4bcc8c;
+  padding: 1px 5px;
+}
+
 footer {
   font-size: 1rem;
   padding-top: 7vh;
   color: #b8b2cd;
-  font-weight: 400;
 }
 
-/* line 276, D:/Work/UXLab/uxl-home/scss/styles.scss */
 footer ul, footer ol {
   list-style: none;
   padding: 3vh 0 0 0;
@@ -363,30 +453,24 @@ footer ul, footer ol {
   line-height: 1.8rem;
 }
 
-/* line 282, D:/Work/UXLab/uxl-home/scss/styles.scss */
 footer span {
-  font-weight: 500;
   color: #d4d1e1;
 }
 
-/* line 286, D:/Work/UXLab/uxl-home/scss/styles.scss */
 footer a {
   color: #b8b2cd;
   text-decoration: none;
 }
 
-/* line 289, D:/Work/UXLab/uxl-home/scss/styles.scss */
 footer a:hover {
   text-decoration: none;
   color: #4bcc8c;
 }
 
-/* line 294, D:/Work/UXLab/uxl-home/scss/styles.scss */
 footer i {
   margin-right: 1vw;
 }
 
-/* line 298, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .headline-element {
   background-color: #4bcc8c;
   padding: 1px;
@@ -394,17 +478,98 @@ footer i {
   margin-bottom: 1rem;
 }
 
-/* line 304, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .firm {
   padding-top: 5vh;
   padding-bottom: 3vh;
   font-size: .9rem;
-  font-weight: 400;
 }
 
-/* line 309, D:/Work/UXLab/uxl-home/scss/styles.scss */
 .firm img {
   width: 16px;
 }
 
-/*# sourceMappingURL=../css/styles.map */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+
+.img-card {
+  display: inline-block;
+  width: 150px;
+}
+
+.img-benefits {
+  margin: 12px;
+  width: 55px;
+}
+
+.p-steps {
+  padding: 2vh 2vh 4vh 2vh;
+}
+
+.h5-steps {
+  padding: 3vh 0 0 0;
+}
+
+.card-example p {
+  font-size: 1rem !important;
+}
+
+.emoji-headline {
+  font-size: 1.7rem;
+}
+
+.text-muted {
+  opacity: 0.7;
+}
+
+.text-white {
+  color: white;
+}
+
+.padding-top-4 {
+  padding-top: 4rem;
+}
+
+.padding-bot-2 {
+  padding-bottom: 2rem;
+}
+
+.padding-bot-4 {
+  padding-bottom: 4rem;
+}
+
+.opacity75 {
+  color: white;
+  opacity: .75;
+}
+
+.opacity85 {
+  color: white;
+  opacity: .85;
+}
+
+#benefits {
+  padding-bottom: 4vh;
+}
+
+.benefits-item {
+  display: flex;
+  align-items: center;
+  padding: 0 0 5vh 0;
+}
+
+.benefits-fa-icons {
+  font-size: 1.5rem;
+  color: #5f35d4;
+  margin-bottom: 1vh;
+}
+
+.circle-mask {
+  border-radius: 50%;
+}
+
+.paypal-button-logo {
+  width: 70px;
+}

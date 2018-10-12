@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126661771-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126661771-1');
+  </script>
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
   <meta charset="utf-8">
+  <meta name="description" content="Increase your sales with an expert UX Review. UX Lapse provides on-demand UX Reviews to know what’s working, what isn’t and how to lift your conversions.">
+  <meta name="keywords" content="UX,UX/UI,UX Review,UX Consulting,UX Analysis,Usability Test,User Testing">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="author" content="Emilio Sanchez @emileond">
-  <title>UX|Lab - Home</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <title>UXLapse - Expert UX review with one click</title>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@uxlapse"/>
+  <meta name="twitter:creator" content="@emileond"/>
+  <meta property="og:title" content="UXLapse - Increase your sales with an expert UX Review"/>
+  <meta property="og:site_name" content="UXLapse"/>
+  <meta property="og:description" content="UX Lapse provides on-demand UX Reviews to know what’s working, what isn’t and how to lift your conversions."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://uxlapse.com/" />
+  <meta property="og:image" content="https://uxlapse.com/img/open-graph.jpg"/>
 
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -18,13 +40,36 @@
 
   <!-- Bootstrap Styles -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Hotjar Tracking Code for http://uxlapse.com -->
+  <script>
+    (function(h, o, t, j, a, r) {
+      h.hj = h.hj || function() {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 1030867,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+
+  <!-- FRESHCHAT -->
+  <script src="https://wchat.freshchat.com/js/widget.js" defer></script>
 </head>
 
 <body id="page-top">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">UX Lab</a>
+      <a title="Go Home" href="index.html">
+        <img class="navbar-brand" src="img/logos/uxlapse-logo-white.svg" alt="UXLapse white logo">
+        </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -32,21 +77,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#service-1">UX Consulting</a>
+            <a title="How it Works" class="nav-link js-scroll-trigger" href="#howitworks">How it Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#service-2">UI Team</a>
+            <a title="Watch Examples" class="nav-link js-scroll-trigger" href="#examples">Examples</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#service-3">Video Content</a>
+            <a title="Pricing" class="nav-link js-scroll-trigger" href="pricing.html">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#service-4">Training</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a title="Frequently Asked Questions" class="nav-link js-scroll-trigger" href="pricing.html#faq">FAQ</a>
           </li>
         </ul>
+        <a title="Get Started with UXLapse" href="pricing.html"><button type="button" class="btn-sm">Get Started</button></a>
       </div>
     </div>
   </nav>
@@ -55,102 +98,151 @@
       <div class="container">
         <div class="header-content">
           <div class="headline">
-            <h1>Let’s design digital <br>products people will love!</h1>
-            <h4>We provide dedicated UX teams to brands worldwide.</h4>
+            <h1>Expert UX review with one click</h1>
+            <p><span class="opacity75">UX Lapse diagnoses where your website is killing conversions, analyze what’s working, what isn’t and give you clear advice on how to boost your conversions.</span><br><br><span class="opacity85">⚡️Submission is quick and starts at just $99.</span></p>
           </div>
-          <button type="button" class="btn btn-primary">Contacto</button>
-
+          <button type="button" class="btn btn-primary">Get Started</button>
         </div>
       </div>
     </div>
   </header>
-  <section class="clients-logos">
+  <section id="howitworks" class="bg-light">
+    <div class="container">
+      <div class="headline text-center">
+        <h2><span class="emoji-headline">🛠 </span>How it works</h2>
+        <p></p>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <img class="img-card" src="img/icons/submit-icon.svg" alt="Submit website Icon">
+              <h5 class="card-title h5-steps">1. Submit your business</h5>
+              <p class="card-text p-steps">Getting started with UX Lapse is simple. Purchase a package, complete a quick form and you are ready to go.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <img class="img-card" src="img/icons/analyze-icon.svg" alt="Analyze website Icon">
+              <h5 class="card-title h5-steps">2. We analyze your site</h5>
+              <p class="card-text p-steps">We analyse what’s working, what isn’t, and give you clear instructions on how to fix any issues.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <img class="img-card" src="img/icons/launch-icon.svg" alt="Rocket Icon">
+              <h5 class="card-title h5-steps">3. Boost your conversions</h5>
+              <p class="card-text p-steps">Receive our UX Review with actionable and validated advice on how to lift your conversion rates</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button type="button" class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="benefits">
     <div class="container">
       <div class="row">
-        <div class="col-md-2">
-          <div class="clients clients-1"><img class="mx-auto d-block" src="img/logos/aws.svg" alt=""></div>
-        </div>
-        <div class="col-md-2">
-          <div class="clients clients-2"><img class="mx-auto d-block" src="img/logos/kustomer.svg" alt=""></div>
-        </div>
-        <div class="col-md-2">
-          <div class="clients clients-3"><img class="mx-auto d-block" src="img/logos/ebanx.svg" alt=""></div>
-        </div>
-        <div class="col-md-2">
-          <div class="clients clients-4"><img class="mx-auto d-block" src="img/logos/sanity.svg" alt=""></div>
-        </div>
-        <div class="col-md-2">
-          <div class="clients clients-5"><img class="mx-auto d-block" src="img/logos/ebanx.svg" alt=""></div>
-        </div>
-        <div class="col-md-2">
-          <div class="clients clients-6"><img class="mx-auto d-block" src="img/logos/ebanx.svg" alt=""></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="service-1" class="showcase">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 margin-auto">
-          <div class="showcase-content">
-            <H2>Design and prototype at the speed of thought!</H2>
-            <p>Transform your ideas into high fidelity, clickable prototypes within seconds! Create designs from scratch or use pre-built components from our UI libraries. You can even upload your existing designs from Sketch.</p>
-            <button type="button" class="btn btn-primary">Comenzar Ahora</button>
-            <button type="button" class="btn btn-link">Ver más</button>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <img class="showcase-image float-right" src="img/services/img.jpg" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="service-2" class="showcase bg-light">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
-          <img class="showcase-image float-left" src="img/services/img.jpg" alt="">
-        </div>
-        <div class="col-md-6 margin-auto">
-          <div class="showcase-content">
-            <H2>Complete collaboration</H2>
-            <p>Edit designs together simultaneously and stay updated in real-time with Slack notifications. Gather feedback directly on design elements and connect with Jira to make sure engineers have easy access to the most recent version of your prototype.</p>
-            <button type="button" class="btn btn-primary">Comenzar Ahora</button>
-            <button type="button" class="btn btn-link">Ver más</button>
+        <div class="headline text-center">
+          <div class="col-md-12">
+            <h2><span class="emoji-headline">💎 </span>Why UXLapse?</h2>
+            <p>Successful companies know it’s best to periodically examine, analyze, and size up a product. With UX Lapse, you’ll lift your conversions up.</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="service-3" class="showcase">
-    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 margin-auto">
-          <div class="showcase-content">
-            <H2>One workflow for designers and developers</H2>
-            <p>Hand over projects with confidence, knowing that specs, CSS, and code snippets will be documented for each element in your design project. That means less time spent redlining and writing documentation for you, and more time focused on creating.</p>
-            <button type="button" class="btn btn-primary">Comenzar Ahora</button>
-            <button type="button" class="btn btn-link">Ver más</button>
-          </div>
+        <div class="col-md-4 benefits-item">
+            <img class="img-benefits" src="img/icons/increase-icon-line.svg" alt="Validate Funnels Icon">
+            <h5>Increase your Sales and Leads</h5>
         </div>
-        <div class="col-md-6 margin-auto">
-          <img class="showcase-image float-right" src="img/services/img.jpg" alt="">
+        <div class="col-md-4 benefits-item">
+          <img class="img-benefits" src="img/icons/idea-icon-line.svg" alt="Get Feedback Icon">
+          <h5>Get Feedback from UX Experts</h5>
+        </div>
+        <div class="col-md-4 benefits-item">
+          <img class="img-benefits" src="img/icons/time-icon-line.svg" alt="Development Time Icon">
+          <h5>Reduce Development Time</h5>
+        </div>
+        <div class="col-md-4 benefits-item">
+          <img class="img-benefits" src="img/icons/experience-icon-line.svg" alt="Improve UX Icon">
+          <h5>Improve User Experience</h5>
+        </div>
+        <div class="col-md-4 benefits-item">
+          <img class="img-benefits" src="img/icons/validate-icon-line.svg" alt="Validate Funnels Icon">
+          <h5>Validate Funnels & Features</h5>
+        </div>
+        <div class="col-md-4 benefits-item">
+          <img class="img-benefits" src="img/icons/enhance-icon-line.svg" alt="Enhance CX Icon">
+          <h5>Enhance Customer Experience</h5>
         </div>
       </div>
     </div>
-  </section>
-  <section id="service-4" class="showcase bg-light">
-    <div class="container-fluid">
+</section>
+  <section id="examples" class="bg-light">
+    <div class="container">
+      <div class="headline text-center">
+        <h2><span class="emoji-headline">📑 </span>UX Review Samples</h2>
+        <p>We're wired to support businesses, product and marketing teams who seek a practical UX partner. We've optimized many types of products.</p>
+      </div>
       <div class="row">
-        <div class="col-md-6">
-          <img class="showcase-image float-left" src="img/services/img.jpg" alt="">
+        <div class="col-md-3">
+          <a title="Go to Analysis" href="breakdowns/renderinc-matterport-landing.html">
+            <div class="card card-example">
+              <img class="card-img-top" src="img/examples/renderinc-matterport.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h6 class="card-title text-left">Renderinc Landingpage UX</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush text-right">
+                <li class="list-group-item"><span class="green-stat"><i class="fa fa-caret-up"></i>12%</span>Conversions</li>
+              </ul>
+            </div>
         </div>
-        <div class="col-md-6 margin-auto">
-          <div class="showcase-content">
-            <H2>Flawless design consistency</H2>
-            <p>Document your design system and know that your entire team is using the same components and spec. Put an end to inconsistencies and confusion, so you can get your product to market faster!</p>
-            <button type="button" class="btn btn-primary">Comenzar Ahora</button>
-            <button type="button" class="btn btn-link">Ver más</button>
+        </a>
+        <div class="col-md-3">
+          <a title="Go to Secure Privacy Analysis" href="breakdowns/secure-privacy.html">
+            <div class="card card-example">
+              <img class="card-img-top" src="img/examples/secure-privacy.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h6 class="card-title text-left">Secure Privacy</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush text-right">
+                <li class="list-group-item"><span class="green-stat"><i class="fa fa-caret-up"></i>8%</span>Time on Site</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-example">
+            <img class="card-img-top" src="http://getbootstrap.com/docs/4.0/assets/brand/bootstrap-social.png" alt="Card image cap">
+            <div class="card-body">
+              <h6 class="card-title text-left">Card title</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush text-right">
+              <li class="list-group-item"><span class="green-stat"><i class="fa fa-caret-up"></i>5%</span>Leads</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-example">
+            <img class="card-img-top" src="http://getbootstrap.com/docs/4.0/assets/brand/bootstrap-social.png" alt="Card image cap">
+            <div class="card-body">
+              <h6 class="card-title text-left">Card title</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush text-right">
+              <li class="list-group-item"><span class="green-stat"><i class="fa fa-caret-up"></i>12%</span>Revenue</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -158,48 +250,62 @@
   </section>
   <section class="testimonials">
     <div class="container">
+      <div class="headline text-center">
+        <h2><span class="emoji-headline">📢 </span>Our users love us</h2>
+      </div>
       <div class="testimonial-content">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="testimonial-text">
-              <p>"UXPin saves us hundreds of hours of product development by simplifying collaboration. Plus, with its great library of components, I can literally go in, cut and paste a component into my design, and we’re off and running."</p>
-
+        <div id="TestimonialsCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <div class="testimonial-text">
+                    <p>"Thanks to improvements UX Lapse made to user experience, more users are requesting demos of our services."</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapper">
+                <img class="float-left circle-mask" src="img/testimonials/mario-rocha.jpg" alt="Client Picture">
+                <div class="firm-text">
+                  <span>Mario Rocha<br>COO, Renderinc.</span>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="wrapper">
-          <img class="float-left" src="img/testimonials/photo-gregg-meyer.png" alt="">
-          <div class="firm-text">
-            <span>Mario Rocha<br>COO, Renderinc.</span>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <div class="testimonial-text">
+                    <p>"Perfect. My go-to-service for UX review"</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapper">
+                <img class="float-left circle-mask" src="img/testimonials/daniel-storbaek.jpg" alt="Client Picture">
+                <div class="firm-text">
+                  <span>Dan Storbaek<br>CEO, SecurePrivacy.ai</span> <br><br>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="contact" class="contact bg-purple">
+  <section id="contact" class="contact bg-blue">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
           <div class="contact-text">
-            <h2>Ready to try the end-to-end UX platform?</h2>
-            <p>Design better products. Faster.</p>
+            <h2>Order your UX Review now</h2>
+            <p>Get actionable recommendations that improves conversions</p>
           </div>
-          <div class="contact-form">
-            <form class="form-inline justify-content-center" action="index.html" method="post">
-              <div class="form-group mx-sm-3 mb-2">
-                <label for="inputEmail" class="sr-only">Email</label>
-                <input type="text" class="form-control form-control-lg" name="" id="inputEmail" placeholder="Email">
-              </div>
-              <button type="submit" class="btn btn-secondary mb-2" name="button">Comenzar</button>
-
-            </form>
-
-          </div>
+          <button type="submit" class="btn btn-secondary mb-2" name="button">Get Started</button>
         </div>
       </div>
     </div>
+    </div>
   </section>
-  <footer class="bg-blue">
+  <footer class="bg-dark-purple">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -216,32 +322,26 @@
         <div class="col-md-3">
           <div class="d-flex">
             <ul class="mx-auto">
-              <span>Services</span>
-              <div class="headline-element"></div>
-              <li><a href="">UX Consulting</a></li>
-              <li><a href="">UX|UI Team</a></li>
-              <li><a href="">Product Video Team</a></li>
-              <li><a href="">Training</a></li>
-            </ul>
-          </div>
-
-        </div>
-        <div class="col-md-3">
-          <div class="d-flex">
-            <ul class="mx-auto">
               <span>Resources</span>
               <div class="headline-element"></div>
-              <li><a href="">Plataforma de Recursos</a></li>
-              <li><a href="">Blog</a></li>
+              <li><a href="#" target="_blank">Downloads</a></li>
+              <li><a title="Go to Blog" href="/blog">Blog</a></li>
             </ul>
           </div>
-
         </div>
-        <div class="col-md-3">
+        <div class="col-md-6">
           <div class="d-flex">
             <ul class="mx-auto">
               <span>Follow Us</span>
               <div class="headline-element"></div>
+              <form class="mbr-form" action="#" method="post" data-form-title="Mobirise Form"><input type="hidden" data-form-email="true" value="tC9nxlGXe48Pl+GYsmJAiNwUc+yNfF2g37sMLooQ2ntFRKcLpv3mBSlWq724nymoU6vJX4LL4b3G3W0a1OU8VcFWvy4/JDzj3+HNvc3+r4/LhLX2W4POZnIGrM1UE82i">
+                <div class="mbr-subscribe input-group">
+                  <input class="form-control" type="email" name="email" placeholder="Email" data-form-field="Email" required="" id="email-form3-4u">
+                  <span class="input-group-btn">
+                    <button href="" type="submit" class="btn btn-primary  display-4">SUBSCRIBE</button>
+                  </span>
+                </div>
+              </form><br>
               <li>
                 <a href=""><i class="fab fa-facebook-f"></i></a>
                 <a href=""><i class="fab fa-twitter"></i></a>
@@ -255,12 +355,11 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <div class="firm">
-            2018 UX studio Zrt. Hecho con 🥚🥚 en <img src="img/icons/mexico.svg" alt=""> México.
+            2018 UXLapse. Made with 💜 in <img src="img/icons/mexico.svg" alt="Mexico Flag"> MX.
           </div>
         </div>
       </div>
     </div>
-
   </footer>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -274,7 +373,13 @@
   <!-- Custom scripts -->
   <script src="js/main.js"></script>
 
-
+  <!-- FRESHCHAT -->
+  <script>
+    window.fcWidget.init({
+      token: "e49242a1-6119-49a7-982e-23d2e99791ae",
+      host: "https://wchat.freshchat.com"
+    });
+  </script>
 </body>
 
 </html>
