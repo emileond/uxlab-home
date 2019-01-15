@@ -56,7 +56,7 @@ h1 {
   font-size: 3.3rem !important;
 }
 h2 {
-  font-size: 2.2rem !important;
+  font-size: 2.6rem !important;
 }
 h4 {
   padding: 1vh 0 1vh;
@@ -67,7 +67,7 @@ h5 {
 }
 h6 {
   color: $intermediate-text !important;
-  font-size: 1.1rem !important;
+  font-size: 1.3rem !important;
 }
 p {
   color: $secondary-text;
@@ -198,17 +198,27 @@ p {
     }
   }
 }
-
 .master-header {
-  text-align: center;
+  position: relative;
   color: white;
-  background-color: $dark-purple;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.divider-shape {
+  z-index: 1;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr;
+  bottom: -1px;
+}
+.shape-fill {
+  fill: #f8f9fa;
+}
 .header-content {
-  padding: 200px 0 200px 0;
+  padding: 210px 0 140px 0;
 }
 .header-example-page {
   padding: 12rem 0 3rem 0;
@@ -225,11 +235,32 @@ p {
   h4 {
     margin-bottom: 8vh;
   }
-  p {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    padding: 0 15vw 2rem 15vw;
+}
+.headline-left {
+  h2 {
+    margin-bottom: 4vh;
   }
+  p {
+    font-size: 1.15rem;
+  }
+}
+.video-header {
+  display: inline-block;
+  text-align: center;
+  z-index: 10 ;
+  width: 95%;
+  position: absolute;
+}
+.parrafo {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding: 0 15vw 2rem 15vw;
+}
+.parrafo-header {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding: 0 0 1.2rem 0;
+
 }
 .clients-logos {
   border-bottom: 1px solid #cdd4d8;
@@ -301,8 +332,6 @@ p {
   &-text {
     color: $secondary-text !important;
   }
-  h5 {
-  }
   p {
     font-size: 1.1rem;
   }
@@ -335,8 +364,6 @@ p {
   }
   span {
     color: $secondary-text;
-  }
-  img {
   }
 }
 .testimonial-content {
@@ -459,7 +486,7 @@ footer {
   width: 150px;
 }
 .img-benefits {
-  margin: 12px;
+  margin-bottom: 15px;
   width: 55px;
 }
 .p-steps {
@@ -468,9 +495,39 @@ footer {
 .h5-steps {
    padding: 3vh 0 0 0;
 }
-.card-example {
+.card-footer {
+  border-top: none !important;
+  padding: .75rem 0 !important;
+  background-color: white !important;
+  ul {
+    margin-bottom: 0 !important;
+  }
+}
+
+.card-stats {
+  padding: 15px 0;
   p {
-    font-size: 1rem !important;
+    font-size: 0.9rem;
+  }
+}
+.stat-item {
+  padding: 0 20px 0px 20px;
+}
+.border-right {
+  border-right: 1px solid #ddd;
+}
+.stat-content {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.stat-text {
+  font-size: 0.9rem;
+}
+.list-inline-item {
+  display: inline-block;
+
+  &:not(:last-child) {
+    margin-right: 0 !important;
   }
 }
 .emoji-headline {
@@ -491,20 +548,18 @@ footer {
 .padding-bot-4 {
   padding-bottom: 4rem;
 }
-.opacity75 {
+.opacity80 {
   color: white;
-  opacity: .75;
+  opacity: .80;
 }
 .opacity85 {
   color: white;
   opacity: .85;
 }
 #benefits {
-  padding-bottom: 4vh;
+  padding: 15vh 0;
 }
 .benefits-item {
-  display: flex;
-  align-items: center;
   padding: 0 0 5vh 0;
 }
 .benefits-fa-icons {
@@ -517,5 +572,9 @@ footer {
 }
 .paypal-button-logo {
   width: 70px;
-
+}
+#taller {
+  a {
+    font-size: 18px;
+  }
 }
