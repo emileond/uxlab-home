@@ -9,8 +9,8 @@ $dark-purple: #312C44;
 $light-purple: #b8b2cd;
 $lighter-purple: #d4d1e1;
 $inactive: #CDD4D8;
-$gradient-purple1: #8354CF;
-$gradient-purple2: #643AD3;
+$gradient-purple1: #5a3fb3;
+$gradient-purple2: #925fd3;
 $paypal-blue: #009cde;
 
 @mixin font-smoothing($value: antialiased) {
@@ -42,7 +42,7 @@ $paypal-blue: #009cde;
   background-color: $blue;
 }
 .bg-gradient {
-  @include background-image(linear-gradient(to bottom right, $gradient-purple1, $gradient-purple2));
+  @include background-image(linear-gradient(120deg, $gradient-purple1, $gradient-purple2));
 }
 body {
   @include font-smoothing(on);
@@ -140,7 +140,6 @@ p {
     }
     padding-top: 0;
     padding-bottom: 0;
-    background-color: $blue;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -242,6 +241,7 @@ p {
   }
   p {
     font-size: 1.15rem;
+    font-weight: 500;
   }
 }
 .video-header {
@@ -550,7 +550,7 @@ footer {
 }
 .opacity80 {
   color: white;
-  opacity: .80;
+  opacity: .90;
 }
 .opacity85 {
   color: white;
